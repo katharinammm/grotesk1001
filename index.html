@@ -1,0 +1,187 @@
+﻿
+<html>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<head>
+		<title>Grotesk1001</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+
+	<body onload="updateSlider();resetParagraph();">
+
+
+		<div id="startpage">
+			<p class="start-headline">Grotesk 1001</p>
+			<p class="start-subline">Progress Status: Basic, Fear, Enjoyment and Anger</p>
+		</div>
+
+		<div id="playground">
+			<div class="controls">
+				<div class="labeldiv"><label class="sliderlabel" id="label_fontsize" name="Font Size">Font Size</label><input type="range" min="10" max="1000" value="90" class="slider" id="fontsize" oninput="updateSlider();"></div>
+				<div class="labeldiv"><label class="sliderlabel" id="label_lineheight" name="Line Height">Line Height</label><input type="range" min="30" max="300" value="140" class="slider" id="lineheight" oninput="updateSlider();"></div>
+				<div class='labeldiv'><label class='sliderlabel' id='label_ANGS' name='Fear'>Fear</label><input type='range' min='0' max='100' value='0' class='slider' id='ANGS' oninput='updateSlider();'></div>
+				<div class='labeldiv'><label class='sliderlabel' id='label_FREU' name='Enjoyment'>Enjoyment</label><input type='range' min='0' max='100' value='0' class='slider' id='FREU' oninput='updateSlider();'></div>
+				<div class='labeldiv'><label class='sliderlabel' id='label_AERG' name='Anger'>Anger</label><input type='range' min='0' max='100' value='0' class='slider' id='AERG' oninput='updateSlider();'></div>
+			</div>
+
+			<div class="testtext" contenteditable="true" spellcheck="false" autocomplete="true" id="textarea" class="●" class="inverted"></div>
+		</div>
+
+		<div class="spacer"></div>
+
+		<div id="text-sizes">
+			<div class="section-headline">
+				<p>Styles / Emotions</p>
+			</div>
+
+			<div class="textblock">
+				<p class="text-big text-basic">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening.</p>
+				<p class="text-label">Basic_20px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-medium text-basic">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket.</p>
+				<p class="text-label">Basic_14px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-small text-basic">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket. But only until I saw the look in his eyes. It felt like it was getting twenty degrees colder at least. Shivers were running down my spine, while his eyes focussed me and would not let go of me.</p>
+				<p class="text-label">Basic_12px</p>
+			</div>
+
+			<div class="textblock">
+				<p class="text-big text-fear">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening.</p>
+				<p class="text-label">Basic_20px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-medium text-fear">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket.</p>
+				<p class="text-label">Basic_14px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-small text-fear">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket. But only until I saw the look in his eyes. It felt like it was getting twenty degrees colder at least. Shivers were running down my spine, while his eyes focussed me and would not let go of me.</p>
+				<p class="text-label">Basic_12px</p>
+			</div>
+
+			<div class="textblock">
+				<p class="text-big text-enjoy">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening.</p>
+				<p class="text-label">Basic_20px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-medium text-enjoy">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket.</p>
+				<p class="text-label">Basic_14px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-small text-enjoy">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket. But only until I saw the look in his eyes. It felt like it was getting twenty degrees colder at least. Shivers were running down my spine, while his eyes focussed me and would not let go of me.</p>
+				<p class="text-label">Basic_12px</p>
+			</div>
+
+			<div class="textblock">
+				<p class="text-big text-anger">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening.</p>
+				<p class="text-label">Basic_20px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-medium text-anger">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket.</p>
+				<p class="text-label">Basic_14px</p>
+			</div>
+			<div class="textblock">
+				<p class="text-small text-anger">I walked down the hallway. Who thought that such a small building could have such long aisles. Strolling my way past the tiny portraits, placed on the walls, my memories startet crashing onto me. It started off as such a beautiful evening. I feel like it was one of the happiest moments of my last three years.Cheerful faces with red cheeks from the wine, that was served, the candles glowing in the dark, putting a spark in the eyes. The night felt endless, also because it was so warm, that you did not even need a jacket. But only until I saw the look in his eyes. It felt like it was getting twenty degrees colder at least. Shivers were running down my spine, while his eyes focussed me and would not let go of me.</p>
+				<p class="text-label">Basic_12px</p>
+			</div>
+
+
+			<div class="section-headline">
+				<p>Glyphs</p>
+			</div>
+
+			<div class="alphabet text-basic">
+				<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+					<br>a b c d e f g h i j k l m n o p q r s t u v w x y z
+					<br>0 1 2 3 4 5 6 7 8 9 . , ! ?
+				</p>
+				<p class="text-label">Grotesk 1001 _ Basic</p>
+			</div>
+
+			<div class="alphabet text-fear">
+				<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+					<br>a b c d e f g h i j k l m n o p q r s t u v w x y z
+					<br>. , ! ?
+				</p>
+				<p class="text-label">Grotesk 1001 _ Fear</p>
+			</div>
+
+			<div class="alphabet text-enjoy">
+				<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+					<br>a b c d e f g h i j k l m n o p q r s t u v w x y z
+					<br>. , ! ?
+				</p>
+				<p class="text-label">Grotesk 1001 _ Enjoyment</p>
+			</div>
+
+			<div class="alphabet text-anger">
+				<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+					<br>a b c d e f g h i j k l m n o p q r s t u v w x y z
+					<br>. , ! ?
+				</p>
+				<p class="text-label">Grotesk 1001 _ Anger</p>
+			</div>
+
+
+			<div class="section-headline-text">
+				<p>The Story</p>
+			</div>
+
+			<div class="description-text">
+				<p>
+				Grotesk 1001 (1001 as "Why designing a thousand and first Grotesk Font?" and "Thousand and One Night" magic) is a speculative experiment about emotions in type and the emerging technology Variable Fonts.
+				<br><br>The starting point was the question whether the performativity of a text could be enhanced by adjusting the feeling of the font to the content of the text. Or would it rather disturb the readability?
+				So I designed a relatively neutral Grotesk font, that was supposed to be adjustable to various emotions through the technology of Variabl Fonts.
+				For that I followed the model of Universal Emotions. With this model, Paul Ekman assumed that the emotions anger, surprise, disgust, enjoyment, fear, and sadness are universal across all cultures. Another question arised: Can they be converted into universally-read font faces?
+				<br><br>Designers usually choose a font to communicate a certain emotion. But what happens if one Variable Font contains various emotions? Can it still be considered as one font family?
+				</p>
+			</div>
+
+
+
+
+			<div class="section-headline-text">
+				<p>Get emotional!</p>
+			</div>
+
+			<div class="description-text">
+				<p>
+					So, dear type-designers all over the world, I need your help!
+					<br><br>I'm curious how a Grotesk-1001-emotion-style would look for you. You can download the OFT and TTF data in the <a href="">repository</a> and design your emotional variations! Grotesk 1001 is licensed as a Creative Commons, which  means you can use and modify it as long as it stays a Creative Commons and is not used for commercial use.
+					<br><br>What would a sad Grotesk 1001 look like? Or a hangry one? I'm curious about your ideas and designs! Let's create together the emotionally most variable font so far!
+				</p>
+			</div>
+
+
+
+			<div class="section-headline-text">
+				<p>About</p>
+			</div>
+
+			<div class="description-text">
+				<p>
+					This website and the presented font are a project by Katharina Mumme (find me on <a href="https://www.instagram.com/kthrn_mmm/">instagram</a> and <a href="https://github.com/katharinammm">github</a>), supervised by Felix Bonge at HAW Hamburg in Summer 2021.
+				</p>
+			</div>
+
+
+		</div>
+
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+
+	</body>
+</html>
